@@ -13,3 +13,5 @@
 .gradle
 .vscode
 .vs
+bin/
+obj/
