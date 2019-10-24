@@ -66,5 +66,17 @@ namespace LearnCSharp
             var withdrawal = new Transaction(-amount, date, note);
             m_AllTransactions.Add(withdrawal);
         }
+
+        public string GetAccountHistory()
+        {
+            var report = new System.Text.StringBuilder();
+
+            report.AppendLine("Date\tAmount\tNote");
+            foreach(var item in m_AllTransactions)
+            {
+                report.AppendLine($"{item.Date.ToShortDateString()}\t{item.Amount}\t{item.Notes}");
+            }
+            return report.ToString();
+        }
     }
 }
