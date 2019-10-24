@@ -1,6 +1,0 @@
-/Users/qufan/testflow/LearnCSharp/LearnCSharp/bin/Debug/LearnCSharp.exe
-/Users/qufan/testflow/LearnCSharp/LearnCSharp/bin/Debug/LearnCSharp.pdb
-/Users/qufan/testflow/LearnCSharp/LearnCSharp/obj/Debug/LearnCSharp.csprojAssemblyReference.cache
-/Users/qufan/testflow/LearnCSharp/LearnCSharp/obj/Debug/LearnCSharp.csproj.CoreCompileInputs.cache
-/Users/qufan/testflow/LearnCSharp/LearnCSharp/obj/Debug/LearnCSharp.exe
-/Users/qufan/testflow/LearnCSharp/LearnCSharp/obj/Debug/LearnCSharp.pdb

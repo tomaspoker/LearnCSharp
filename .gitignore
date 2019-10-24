@@ -1,0 +1,15 @@
+.DS_Store
+*.apk
+*.class
+*.d
+*.db
+*.egg-info
+*.iml
+*.log
+*.o
+*.pyc
+*.swp
+*.Dir
+.gradle
+.vscode
+.vs
