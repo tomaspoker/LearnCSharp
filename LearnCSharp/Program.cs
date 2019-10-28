@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace LearnCSharp
 {
@@ -6,28 +8,16 @@ namespace LearnCSharp
     {
         public static void Main(string[] args)
         {
+            var men = new MenPerson("Tomas", "Wilson", 2);
 
-            //try
-            //{
-            //    var account = new BankAccount("Tomas", -50);
-            //}
-            //catch (ArgumentOutOfRangeException e)
-            //{
-            //    Console.WriteLine("Exception caught creating account with negative balance");
-            //    Console.WriteLine(e.ToString());
-            //}
+            Console.WriteLine(men.Sex);
+        }
 
-            var account = new BankAccount("Tomas", 1000);
-            account.MakeWithdrawal(500, DateTime.Now, "Rent payment");
-
-            Console.WriteLine(account.Balance);
-
-            account.MakeDeposit(100, DateTime.Now, "Friend paid me back");
-
-            Console.WriteLine(account.Balance);
-
-
-            Console.WriteLine(account.GetAccountHistory());
+        private static bool LogException(Exception e)
+        {
+            Console.WriteLine($"\tIn the log routine. Caught {e.GetType()}");
+            Console.WriteLine($"\tMessage: {e.Message}");
+            return true;
         }
     }
 }
